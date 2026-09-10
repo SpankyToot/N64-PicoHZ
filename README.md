@@ -60,5 +60,7 @@ Wire of your choice.
 ## Use
 
 Console will always boot to stock 1.5x multiplier.
+
 Pressing reset will reboot the console as normal.
+
 Holding reset for 0.8sec or more will reboot the console and enable/disable the overclock and change the indicator led to match.
