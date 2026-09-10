@@ -14,7 +14,7 @@ The stock multiplier of the N64 is 1.5x, this modchip allows the use of 2.0x mul
 
 
 
-\#List of required components.
+#List of required components.
 
 RP2040 Zero.
 
@@ -28,7 +28,7 @@ Wire of your choice.
 
 
 
-\#Pinout
+#Pinout
 
 
 
@@ -54,7 +54,7 @@ GND	Any GND source
 
 
 
-\#Installation instructions.
+#Installation instructions.
 
 
 
@@ -74,7 +74,7 @@ GND	Any GND source
 
 
 
-\#Use
+#Use
 
 Console will always boot to stock 1.5x multiplier.
 
