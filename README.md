@@ -29,23 +29,16 @@ Wire of your choice.
 ## Pinout
 
 
-Pico     N64      			  LED
-
-2        CPU Pin 112
-
-3        CPU Pin 116
-
-4        |       				  Anode 1 - With inline resistor
-
-5        |       				  Anode 2 - With inline resistor
-
-26       PIF Pin 17
-
-3.3V     Any 3.3V source
-
-GND      Any GND source
-
-|        LED GND			    Cathode
+| Pico | N64 | LED |
+| --- | --- | --- |
+| 2 | CPU Pin 112 | |
+| 3 | CPU Pin 116 | |
+| 4 | | Anode 1 - With inline resistor |
+| 5 | | Anode 2 - With inline resistor |
+| 26 | PIF Pin 17 | |
+| 3.3V | Any 3.3V source | |
+| GND | Any GND source | |
+| | LED GND | Cathode |
 
 
 ## Installation instructions.
