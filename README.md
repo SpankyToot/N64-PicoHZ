@@ -77,3 +77,6 @@ Holding reset for 0.8sec or more will reboot the console and enable/disable the 
 None?
 No plan to add 3.0 multiplier support, never has a N64 that could handle it without immediately crashing.
 
+This mod modifies the bus speed multiplier for the cpu frequency.  
+Bus speed is 62.5mhz, Stock clock is with a 1.5x multiplier giving 93.75mhz clock speed.  
+The overclock sets the cpu bus multiplier to 2.0x, boosting the cpu clock frequency to 125mhz.
