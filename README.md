@@ -46,7 +46,11 @@ Wire of your choice.
 
 1: Lift legs CPU legs for pin 112 and 116.
 
+![Photo with indicated cpu legs](Install%20Images/CPU%20Pins.jpg)
+
 2: Remove stock LED and clean out the GND through hole.
+
+![photo with indicated LED GND](Install%20Images/LED%20GND.jpg)
 
 3: Install new led with cathode in GND through hole
 
@@ -55,6 +59,8 @@ Wire of your choice.
 5: Install 100ohm resistors to both Pico points 4 and 5 for the LED Anodes.
 
 6: Connect all points according to pinout above.
+
+![Photo with indicated PIF pin 17](Install%20Images/PIF.jpg)
 
 
 ## Use
