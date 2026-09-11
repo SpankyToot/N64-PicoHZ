@@ -71,3 +71,9 @@ Console will always boot to stock 1.5x multiplier.
 Pressing reset will reboot the console as normal.
 
 Holding reset for 0.8sec or more will reboot the console and enable/disable the overclock and change the indicator led to match.
+
+
+## Future plans
+None?
+No plan to add 3.0 multiplier support, never has a N64 that could handle it without immediately crashing.
+
