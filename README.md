@@ -45,7 +45,7 @@ Wire of your choice.
 | 3 | CPU Pin 116 | |
 | 4 | | Anode 1 - With inline resistor |
 | 5 | | Anode 2 - With inline resistor |
-| 26 | PIF Pin 17 | |
+| 26 | PIF Pin 27 | |
 | 3.3V | Any Switched 3.3V | |
 | GND | Any GND source | |
 | | LED GND | Cathode |
@@ -70,7 +70,7 @@ Wire of your choice.
 
 6: Connect all points according to pinout above.
 
-![Photo with indicated PIF pin 17](Install%20Images/PIF.jpg)
+![Photo with indicated PIF pin 27](Install%20Images/PIF.jpg)
 ![illustrated diagram with included pictures of N64 components.](Install%20Images/Diagram.jpg)
 
 
