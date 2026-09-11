@@ -61,6 +61,7 @@ Wire of your choice.
 6: Connect all points according to pinout above.
 
 ![Photo with indicated PIF pin 17](Install%20Images/PIF.jpg)
+![illustrated diagram with included pictures of N64 components.](Install%20Images/Diagram.jpg)
 
 
 ## Use
