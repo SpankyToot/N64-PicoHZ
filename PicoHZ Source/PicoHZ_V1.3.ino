@@ -28,44 +28,37 @@ void setup()
   }
 
 void loop()
-  {
-  //If RST low = check clockstate, if 0 change clock/led to 2x and set clockstate 1, else if 1 change clock/led to 1.5x and set clockstate 0
-  // 112 LOW + 116 LOW = 1.0; 112 HIGH + 116 LOW = 1.5 (stock); 112 LOW + 116 HIGH = 2.0; 112 HIGH + 116 HIGH = 3.0
-  int RST_SW = analogRead(RST_IN);
-  if (RST_SW <= 50)
-      {
-        //wait to check if RST held or pressed
-      delay(800);
-      int RST_SW = analogRead(RST_IN);
-      if (RST_SW <= 50)  
-      //RST held, change clock
-        {if (clockstate == 0)
-          {
-          clockstate = (clockstate +1);
-          delay(100);
-          //set multiplier 2.0x
-          digitalWrite (CPU_112, LOW);
-          digitalWrite (CPU_116, HIGH);
-          digitalWrite (LED_15, LOW);
-          digitalWrite (LED_20, HIGH);
-          }
-    
-          else if (clockstate == 1)
-          {
-          clockstate = (clockstate -1);
-          delay(100);
-          //set multiplier 1.5x
-          digitalWrite (CPU_116, LOW);
-          digitalWrite (CPU_112, HIGH);
-          digitalWrite (LED_15, HIGH);
-          digitalWrite (LED_20, LOW);
-          }
-      else
-        {
-        }
-      }
-    }
-  else
+{
+    int RST_SW = analogRead(RST_IN);
+
+    if (RST_SW <= 50)
     {
+        delay(800);
+
+        RST_SW = analogRead(RST_IN);
+
+        if (RST_SW <= 50)
+        {
+            if (clockstate == 0)
+            {
+                clockstate = 1;
+
+                digitalWrite(CPU_112, LOW);
+                digitalWrite(CPU_116, HIGH);
+                digitalWrite(LED_15, LOW);
+                digitalWrite(LED_20, HIGH);
+            }
+            else
+            {
+                clockstate = 0;
+
+                digitalWrite(CPU_112, HIGH);
+                digitalWrite(CPU_116, LOW);
+                digitalWrite(LED_15, HIGH);
+                digitalWrite(LED_20, LOW);
+            }
+
+            delay(100);
+        }
     }
-  }
+}
