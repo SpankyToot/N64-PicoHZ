@@ -1,14 +1,24 @@
 # N64-PicoHZ
 
 
-Switchless overclocking mod for N64 using RP2040Zero
+Switchless overclocking mod for N64 using RP2040Zero.
 
 The N64 uses a bus speed multiplier to dictate the CPU's clock frequency.
 
-This multiplier can be controlled by pulling pins 112 \& 116 on the CPU high/low in different combinations.
+This multiplier can be controlled by setting pins 112 & 116 on the CPU high/low in different combinations.
 
-The stock multiplier of the N64 is 1.5x, this modchip allows the use of 2.0x multiplier to improve performance in some titles, and break others.
+The stock multiplier of the N64 is 1.5x, this modchip allows for the additional use of a 2.0x multiplier to improve performance in some titles, and break others.
 
+Bus speed is 62.5mhz, Stock clock is with a 1.5x multiplier giving 93.75mhz clock speed.
+
+The overclock sets the cpu bus multiplier to 2.0x, boosting the cpu clock frequency to 125mhz.
+
+| CPU112 | CPU116 | Multiplier | Clock |
+| --- | --- | --- | --- |
+| Low | Low | 1.0x | 62.5mhz |
+| High | Low | 1.5x Stock | 93.75mhz |
+| Low | High | 2.0x | 125mhz |
+| High | High | 3.0x | 187.5mhz |
 
 
 
@@ -75,8 +85,7 @@ Holding reset for 0.8sec or more will reboot the console and enable/disable the 
 
 ## Future plans
 None?
+
 No plan to add 3.0 multiplier support, never has a N64 that could handle it without immediately crashing.
 
-This mod modifies the bus speed multiplier for the cpu frequency.  
-Bus speed is 62.5mhz, Stock clock is with a 1.5x multiplier giving 93.75mhz clock speed.  
-The overclock sets the cpu bus multiplier to 2.0x, boosting the cpu clock frequency to 125mhz.
+Probably look into long term heat management for longer gaming sessions but i cant hold the controller for more than 2 hours as it is. But this will be a different project.
