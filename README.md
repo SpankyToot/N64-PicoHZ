@@ -46,7 +46,7 @@ Wire of your choice.
 | 4 | | Anode 1 - With inline resistor |
 | 5 | | Anode 2 - With inline resistor |
 | 26 | PIF Pin 17 | |
-| 3.3V | Any 3.3V source | |
+| 3.3V | Any Switched 3.3V | |
 | GND | Any GND source | |
 | | LED GND | Cathode |
 
