@@ -1,6 +1,8 @@
 # N64-PicoHZ
 
 
+### This mod could cause damage to your N64 either from improper install or simply the additional heat. I take no responsibility, install at your own risk.
+
 Switchless overclocking mod for N64 using RP2040Zero.
 
 The N64 uses a bus speed multiplier to dictate the CPU's clock frequency.
@@ -89,3 +91,10 @@ None?
 No plan to add 3.0 multiplier support, never has a N64 that could handle it without immediately crashing.
 
 Probably look into long term heat management for longer gaming sessions but i cant hold the controller for more than 2 hours as it is. But this will be a different project.
+
+
+## Like the project and its low low price of free?  
+Consider giving me a tip to help with my tooling upgrades or come watch me stream future mods and repairs!  
+[TIPS!](https://streamlabs.com/spankytoot/tip)  
+[Twitch](https://www.twitch.tv/spankytoot)  
+[Youtube](https://www.youtube.com/@spankytoot)  
