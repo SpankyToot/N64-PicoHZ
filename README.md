@@ -88,7 +88,7 @@ Holding reset for 0.8sec or more will reboot the console and enable/disable the 
 ## Future plans
 None?
 
-No plan to add 3.0 multiplier support, never has a N64 that could handle it without immediately crashing.
+No plan to add 3.0 multiplier support, never had a N64 that could handle it without immediately crashing.
 
 Probably look into long term heat management for longer gaming sessions but i cant hold the controller for more than 2 hours as it is. But this will be a different project.
 
