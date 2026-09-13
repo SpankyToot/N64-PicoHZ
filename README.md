@@ -90,6 +90,7 @@ Holding reset for 0.8sec or more will reboot the console and enable/disable the 
 | --- | --- |
 | NUS-CPU(P)-01 | V1.4 |
 | NUS-CPU(P)-03-1 | V1.4 |
+| NUS-CPU-03 | Pending |
 | NUS-CPU-04 | Pending |
 
 
